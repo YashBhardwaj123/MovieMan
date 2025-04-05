@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MovieMan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MovieMan</h1>
+        <p>How are you feeling today?</p>
+        <select id="genreSelect">
+            <option value="">Select a genre</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Crime">Crime</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Biography">Biography</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Horror">Horror</option>
+        </select>
+        <button onclick="getRecommendations()">Get Movies</button>
+        <button onclick="getRandomMovie()">Random Movie</button>
+        <div id="recommendations"></div>
+        <script src="script.js"></script>
+        <p>© 2025 Yash Bhardwaj. All rights reserved.</p>
+    </div>
+</body>
+</html>
